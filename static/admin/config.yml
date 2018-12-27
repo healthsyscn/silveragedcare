@@ -3,7 +3,7 @@ backend:
   repo: master 
 
 media_folder: "static/img" # Folder where user uploaded files should go
-public_folder: "/img"
+public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -15,5 +15,5 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Tags", name: "tags", widget: "string", default: "临终关怀"}
       - {label: "Categories", name: "categories", widget: "string", default: "照顾者"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-three", "heading-four", "quote", "bulleted-list", "numbered-list"]}
