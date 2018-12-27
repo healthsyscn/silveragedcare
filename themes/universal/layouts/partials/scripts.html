@@ -19,6 +19,18 @@
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 
 <script>
+	if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<script>
 	window.fleeqBarConfig = {
 		bar : "egwnx28i74-e9ozerkmfv", //*Require, unique bar code
 		//selector: "#myButton" // Optional: custom selector
