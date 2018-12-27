@@ -1,4 +1,4 @@
-baseurl = "//www.nxaiyinling.com/"
+baseurl = "/"
 theme = "universal"
 title = "爱银龄"
 # Site language. Available translations in the theme's `/i18n` directory.
