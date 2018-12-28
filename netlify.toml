@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "/china"
-  status = 302
-  force = false
-  conditions = {Country = "cn,hk,tw"}
