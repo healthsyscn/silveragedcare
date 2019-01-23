@@ -1,71 +1,8 @@
-.bar-header {
-  background-color: #990000;
-}
-
-ion-side-menu li .item {
-  background-color: #313848;
-  border-color: #4F5865;
-  color: #BCC3CF;
-
-}
-
-ion-side-menu li.item {
-  border-color: #4F5865;
-  }
-
-ion-side-menu li.item.item-divider {
-  background-color: #3E4755;
-}
-
-.ion-ionic {
-  color: orange;
-}
-.ion-home {
-  color: blue;
-}
-.ion-ios-bell {
-  color: yellow;
-}
-.ion-chatbox {
-  color: green;
-}
-.ion-calendar {
-  color: white;
-}
-.ion-folder {
-  color: purple;
-}
-.ion-earth {
-  color: maroon;
-}
-.ion-help-buoy {
-  color: orange;
-}
-.ion-gear-b {
-  color: dimgray;
-}
-.ion-log-out {
-  color: red;
-}
-
-.ion-ionic:before {
-  content: "\f3ea";
-}
-
-.mm-site_mm_courses .tabs-icon-left {
-  background-color: #EBEFF8;
-}
-.mm-site_mm_courses section h2 span {
-  font-weight: bold;
-}
-
-/* 3.5 styles */
-
 /** Header color */
 .toolbar-background-md,
 .toolbar-background-ios,
 .toolbar-background-wp {
-  background: #5069A1;
+  background: #990000;
 }
 
 /* Bottom tabs selected color */
@@ -83,13 +20,13 @@ ion-side-menu li.item.item-divider {
 
 /* Tabs color*/
 .core-tabs-bar .slides a.tab-slide[aria-selected=true] {
-  color: #5069A1 !important;
-  border-bottom-color: #5069A1 !important;
+  color: #990000 !important;
+  border-bottom-color: #990000 !important;
 }
 
 /* Loading spinner */
 .spinner circle, .spinner line {
-    stroke: #5069A1;
+    stroke: #990000;
 }
 
 /* Buttons */
@@ -99,22 +36,22 @@ ion-side-menu li.item.item-divider {
 .fab-ios,
 .fab-md,
 .fab-wp {
-  background-color: #5069A1;
+  background-color: #990000;
 }
 
 .button-outline-md,
 .button-outline-ios,
 .button-outline-wp {
-    border-color: #5069A1;
+    border-color: #990000;
     background-color: #ffffff;
-    color: #5069A1;
+    color: #990000;
 }
 
 .button-clear-md,
 .button-clear-ios,
 .button-clear-wp {
   background-color: transparent;
-  color: #5069A1;
+  color: #990000;
 }
 
 /* More icon colors */
